@@ -44,7 +44,7 @@ function OrbitingCirclesDemo() {
         delay={20}
         reverse
       >
-        <a href="https://codeforces.com/profile/adnanq262" target='_blank'><img src={codeforces} alt="codeforces" /></a>
+        <a href="https://codeforces.com/profile/adnanq61" target='_blank'><img src={codeforces} alt="codeforces" /></a>
       </OrbitingCircles>
     </div>
   );

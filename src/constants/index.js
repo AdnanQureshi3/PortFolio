@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project.png";
 import blogyee from "../assets/projects/blogyeeApp.png";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
+import project3 from "../assets/projects/ecommerce.png"
 
 export const ABOUT_TEXT = `
 
