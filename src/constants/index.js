@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project.png";
 import blogyee from "../assets/projects/blogyeeApp.png";
 import project3 from "../assets/projects/ecommerce.png"
+import upchainIMG from "../assets/projects/upchain.png"
 
 export const ABOUT_TEXT = `
 
@@ -16,6 +17,15 @@ export const NAVIGATION_LINKS = [
 
 export const PROJECTS = [
   
+  {
+    title: "UpChain",
+    image: upchainIMG,
+    description:
+      "UpChain is a team-based professional social media platform where users can connect, share posts, write articles, and collaborate. It features AI-powered tools for enhancing content, real-time chat, and a clean, intuitive UI to support career-focused networking and engagement.",
+    technologies: ["React", "NodeJs" , "ExpressJs" , "MongoDB Atlas" , "AI" , "ShadCn"],
+    github : "https://github.com/AdnanQureshi3/UpChain",
+    livelink : "https://upchain-tvvm.onrender.com/",
+  },
   {
     title: "Blogee ",
     image: blogyee,
@@ -46,6 +56,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Agra  , UttarPradesh , INDIA, 242001 ",
+  address: "Agra  , UttarPradesh , INDIA, 282001 ",
   email: "adnanq262@gmail.com",
 };
