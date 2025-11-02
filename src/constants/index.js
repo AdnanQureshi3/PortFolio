@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project.png";
 import blogyee from "../assets/projects/blogyeeApp.png";
 import project3 from "../assets/projects/ecommerce.png"
 import upchainIMG from "../assets/projects/upchain.png"
+import filemanImg from "../assets/projects/fileman.png"
 
 export const ABOUT_TEXT = `
 
@@ -25,6 +26,15 @@ export const PROJECTS = [
     technologies: ["React", "NodeJs" , "ExpressJs" , "MongoDB Atlas" , "AI" , "ShadCn"],
     github : "https://github.com/AdnanQureshi3/UpChain",
     livelink : "https://upchain-tvvm.onrender.com/",
+  },
+  {
+    title: "FileMan",
+    image: filemanImg,
+    description:
+      "FileMan is a file management system that allows users to upload, organize, and share files securely. It features a user-friendly interface, advanced search capabilities, and robust security measures to protect user data.",
+    technologies: ["React", "NodeJs" , "ExpressJs" , "PostgreSQL" , "AWS-S3" , "Prisma"],
+    github : "https://github.com/AdnanQureshi3/FileMan",
+    livelink : "https://fileman.onrender.com/",
   },
   {
     title: "Blogee ",
